@@ -63,3 +63,8 @@ p<`b \| t \| r \| l \| x \| y`>-<`1-5`>  | padding <`bottom \| top \| right \| l
 
 Class Name | Description
 ---------- | -----------
+<`w \| h`>-<`1-100`> | width or height in terms of % from 1-100
+border-<`top \| right \| left \| bottom`> | border on the top, right, left and bottom
+border-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark \| white \| muted>` | border with colors `<blue \| gray \| green \| light blue \| yellow \| red \| very light grey \| black \| white \| blur gray>`
+rounded-<`top \| bottom \| left \| right \| circle \| 0`> | 
+rounded border at top, bottom, left, right, circle and no border
