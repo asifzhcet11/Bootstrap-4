@@ -45,3 +45,9 @@ Class Name | Description
 .clearfix | to clear the area so that whatever comes next goes down rather than aligning within same element.
 .fixed-<top \| bottom> | to keep the element fixed at top for e.g header
 .sticky-top | to keep the element sticky when we scroll to the element
+
+#### Colors & Background
+
+Class Name | Description
+---------- | -----------
+.<text \| bg>-<primary \| secondary \| success \| info \| warning \| danger \| light \| dark \| white \| muted> | <text color \| background> : <blue \| gray \| green \| light blue \| yellow \| red \| very light grey \| black \| white \| blur gray>
