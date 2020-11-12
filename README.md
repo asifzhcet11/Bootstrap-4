@@ -56,14 +56,43 @@ Class Name | Description
 
 Class Name | Description
 ---------- | -----------
-m<`b \| t \| r \| l \| x \| y`>-<`1-5`>  | margin <`bottom \| top \| right \| left \| x(left and right) \| y(top-botton)`>
-p<`b \| t \| r \| l \| x \| y`>-<`1-5`>  | padding <`bottom \| top \| right \| left \| x(left and right) \| y(top-botton)`>
+.m<`b \| t \| r \| l \| x \| y`>-<`1-5`>  | margin <`bottom \| top \| right \| left \| x(left and right) \| y(top-botton)`>
+.p<`b \| t \| r \| l \| x \| y`>-<`1-5`>  | padding <`bottom \| top \| right \| left \| x(left and right) \| y(top-botton)`>
 
 #### Sizing & Borders
 
 Class Name | Description
 ---------- | -----------
-<`w \| h`>-<`1-100`> | width or height in terms of % from 1-100
+.<`w \| h`>-<`1-100`> | width or height in terms of % from 1-100
 border-<`top \| right \| left \| bottom`> | border on the top, right, left and bottom
-border-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark \| white \| muted>` | border with colors `<blue \| gray \| green \| light blue \| yellow \| red \| very light grey \| black \| white \| blur gray>`
-rounded-<`top \| bottom \| left \| right \| circle \| 0`> |rounded border at top, bottom, left, right, circle and no border
+.border-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark \| white \| muted>` | border with colors `<blue \| gray \| green \| light blue \| yellow \| red \| very light grey \| black \| white \| blur gray>`
+.rounded-<`top \| bottom \| left \| right \| circle \| 0`> |rounded border at top, bottom, left, right, circle and no border
+
+## CSS Components
+
+#### Button & Button Groups
+
+Class Name | Description
+---------- | -----------
+.btn-<`outline`>-<`primary \| secondary \| success \| info \| warning \| danger \| light \| dark \| link`> | btn color (with or without line) blue, gray, green, light blue, yellow, red, very light gray, black, button as link
+.btn-<`sm \| lg \| block`> |  button small, large or block type i.e. extending entire conatiner width
+.btn-group | to group multiple buttons together
+.btn-group-vertical | to group buttons vertically
+.btn-toolbar | to group multiple button groups `.btn-group`
+.dropdown-toggle | add a dropdown caret button
+
+```
+  <!-- BUTTON DROPDOWNS -->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button"
+            data-toggle="dropdown">
+                My Dropdown
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link One</a>
+                <a class="dropdown-item" href="#">Link Two</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Link Three</a>
+            </div>
+        </div>
+```
