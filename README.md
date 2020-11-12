@@ -19,5 +19,5 @@ Class Name | Description
 .text-truncate | make the text truncate...
 .ul.list-unstyled | make the unordered list look better
 .ul.list-inline | make unordered list inline
-.li.list-inline-item | make list items of ´ul.list-inline´ list inline  
+.li.list-inline-item | make list items of `ul.list-inline ` list inline  
 
