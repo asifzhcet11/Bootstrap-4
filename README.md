@@ -29,7 +29,7 @@ Class Name | Description
 .text-right | align text right
 .text-center | align text center
 .text-justify | make text justified in a container
-.text-^<sm|md|lg|xl>^-^<left|right|center>^ | for eg. text-sm-right will make text aligned right on small or larger devices
+.text-<sm \| md \| lg \| xl>-<left \| right \| center> | for eg. text-sm-right will make text aligned right on small or larger devices
 .d-inline | convert block(extends 100% width) level to inline(extends only till the content)
 .d-block | make the inline level to block level
 .d-inline-block | create multiple inline level into block levels
