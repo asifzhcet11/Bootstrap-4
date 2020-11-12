@@ -33,3 +33,15 @@ Class Name | Description
 .d-inline | convert block(extends 100% width) level to inline(extends only till the content)
 .d-block | make the inline level to block level
 .d-inline-block | create multiple inline level into block levels
+
+#### Float and Fixed Position
+
+Floats are used for block-level element like `<div></div>`
+
+Class Name | Description
+---------- | -----------
+.float-<right \| left \| none> | div on right, left or none.
+.float-<sm \| md \| lg \| xl>-<right \| left \| none> | for e.g. float-sm-right will make div on left side for small or larger devices
+.clearfix | to clear the area so that whatever comes next goes down rather than aligning within same element.
+.fixed-<top \| bottom> | to keep the element fixed at top for e.g header
+.sticky-top | to keep the element sticky when we scroll to the element
