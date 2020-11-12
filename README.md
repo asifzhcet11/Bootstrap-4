@@ -57,5 +57,4 @@ Class Name | Description
 Class Name | Description
 ---------- | -----------
 m<*b \| t \| r \| l \| x \| y*>-<*1-5*>  | margin <*bottom \| top \| right \| left \| x(left and right) \| y(top-botton)*>
-
 p<*b \| t \| r \| l \| x \| y*>-<*1-5*>  | padding <*bottom \| top \| right \| left \| x(left and right) \| y(top-botton)*>
