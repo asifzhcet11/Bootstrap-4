@@ -21,3 +21,15 @@ Class Name | Description
 .ul.list-inline | make unordered list inline
 .li.list-inline-item | make list items of `ul.list-inline ` list inline  
 
+#### Text Alignment and Display
+
+Class Name | Description
+---------- | -----------
+.text-left | align text left
+.text-right | align text right
+.text-center | align text center
+.text-justify | make text justified in a container
+.text-`<sm|md|lg|xl>`-`<left|right|center>` | for eg. text-sm-right will make text aligned right on small or larger devices
+.d-inline | convert block(extends 100% width) level to inline(extends only till the content)
+.d-block | make the inline level to block level
+.d-inline-block | create multiple inline level into block levels
