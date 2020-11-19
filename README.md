@@ -117,14 +117,10 @@ div.dropdown | to create dropdown menu or information
 button.dropdown-toggle & data-toggle="dropdown" | button for the dropdown
 div.dropdown-menu | dropdown menu
 .dropdown-item | dropdown menu items
-.navbar-`<light | dark >` | to have navbar text light or dark
-.fixed-`<top | bottom >` | to have object fixed at top or bottom
-.sticky-`<top | bottom >` | to have object stick to top or bottom when you move to it
-.justify-content-`<center | right>` | to justify and move to center or right
+.navbar-`<light \| dark>` | to have navbar text light or dark
+.fixed-`<top \| bottom>` | to have object fixed at top or bottom
+.sticky-`<top \| bottom>` | to have object stick to top or bottom when you move to it
+.justify-content-`<center \| right>` | to justify and move to center or right
 .flex-column | to align vertically
 .nav-fill | justify menu items
 
-#### Navbar & Navs
-
-Class Name | Description
----------- | -----------
