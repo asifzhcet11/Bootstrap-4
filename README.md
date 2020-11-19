@@ -107,8 +107,8 @@ ul.navbar-nav | actual navbar menu normal
 ul.nav ul.nav-pills | to use for submenu page
 li.nav-item | nav menu items
 a.nav-link | link of the nav menu items
-button.navbar-toggler with data-toggle="collaspe" data-target=<id> | create a toggle button to collaspe depending on `nav.navbar.expand-<option>` value
-div.collaspe .navbar-collaspe id=<data-target>| the target wrapper div for collasping
+button.navbar-toggler with data-toggle="collaspe" data-target=`<id>` | create a toggle button to collaspe depending on `nav.navbar.expand-<option>` value
+div.collaspe .navbar-collaspe id=`<data-target>`| the target wrapper div for collasping
 span.navbar-toggler-icon | create a standard toggle button
 form.form-inline | to create inline form within a div
 .ml-auto | align object on the right
@@ -123,3 +123,8 @@ div.dropdown-menu | dropdown menu
 .justify-content-`<center | right>` | to justify and move to center or right
 .flex-column | to align vertically
 .nav-fill | justify menu items
+
+#### Navbar & Navs
+
+Class Name | Description
+---------- | -----------
