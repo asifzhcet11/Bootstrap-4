@@ -124,3 +124,15 @@ div.dropdown-menu | dropdown menu
 .flex-column | to align vertically
 .nav-fill | justify menu items
 
+#### List Groups & Badges
+
+Groups are fancy unordered lists.
+
+Class Name | Description
+---------- | -----------
+ul.list-group | unordered list of group of items
+.list-group-item | items of the group
+.list-group-item-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark>` | to have multi color group items
+ul.list-group-flush | do not want border all around only at the bottom
+.badge .badge-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark>`| to create a badge with a specific color.
+
