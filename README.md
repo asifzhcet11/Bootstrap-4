@@ -96,3 +96,30 @@ Class Name | Description
             </div>
         </div>
 ```
+#### Navbar & Navs
+
+Class Name | Description
+---------- | -----------
+nav.navbar | creates a standard navbar
+nav.navbar-expand-`<sm \| md \| lg \| xl>`| expand the navbar from vertical to horizontal depending on the option
+.navbar-brand | brand of the application or navbar
+ul.navbar-nav | actual navbar menu normal
+ul.nav ul.nav-pills | to use for submenu page
+li.nav-item | nav menu items
+a.nav-link | link of the nav menu items
+button.navbar-toggler with data-toggle="collaspe" data-target=<id> | create a toggle button to collaspe depending on `nav.navbar.expand-<option>` value
+div.collaspe .navbar-collaspe id=<data-target>| the target wrapper div for collasping
+span.navbar-toggler-icon | create a standard toggle button
+form.form-inline | to create inline form within a div
+.ml-auto | align object on the right
+.mr-auto | align object on the left
+div.dropdown | to create dropdown menu or information
+button.dropdown-toggle & data-toggle="dropdown" | button for the dropdown
+div.dropdown-menu | dropdown menu
+.dropdown-item | dropdown menu items
+.navbar-`<light | dark >` | to have navbar text light or dark
+.fixed-`<top | bottom >` | to have object fixed at top or bottom
+.sticky-`<top | bottom >` | to have object stick to top or bottom when you move to it
+.justify-content-`<center | right>` | to justify and move to center or right
+.flex-column | to align vertically
+.nav-fill | justify menu items
