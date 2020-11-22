@@ -136,3 +136,22 @@ ul.list-group | unordered list of group of items
 ul.list-group-flush | do not want border all around only at the bottom
 .badge .badge-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark>`| to create a badge with a specific color.
 
+#### Forms & Input
+
+Class Name | Description
+---------- | -----------
+.form-group | to group one form for e.g. a label and an input field
+.form-control | to make input/select/textarea look beautiful
+.form-control-`< lg \| sm >` | to have form input/select/textare large or small
+.form-control-file | to make input file type look better
+.form-text | to have text with form items
+.custom-file | to have a better looking file input
+.custom-file-input | to have a better looking file input for `.custom-file`
+.custom-file-label | to have a better looking file label for `.custom-file`
+.custom-range | to have range look beautiful
+form.form-inline | to have inline form for login or so
+.form-check | to have a nice looking checkbox for e.g. remember me
+.form-check-label | label for form check
+.form-check-input | checkbox
+input.is-valid | green border to the input
+input.is-invalid & invalid-feedback | red border to the input to `invalid-feedback` show/hide the message depending on validation
