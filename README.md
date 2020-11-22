@@ -155,3 +155,23 @@ form.form-inline | to have inline form for login or so
 .form-check-input | checkbox
 input.is-valid | green border to the input
 input.is-invalid & invalid-feedback | red border to the input to `invalid-feedback` show/hide the message depending on validation
+
+#### Input Groups & Addons
+
+To group input together with symbol or some addons.
+
+Class Name | Description
+---------- | -----------
+div.input-group | to have a div for the input group that goes together
+div.input-group-`<prepend /| append>` | to prepend/append something mostly its text or icon 
+.input-group-text | to make the text look beautiful in an input group
+
+```
+<!-- BASIC INPUT GROUPS -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">@</span>
+        </div>
+        <input class="form-control" type="text" placeholder="Username">
+    </div>
+```
