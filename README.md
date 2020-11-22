@@ -246,3 +246,69 @@ a.page-link | to have page link
     </ul>
 </nav>
 ```
+
+#### Cards
+
+Class Name | Description
+---------- | -----------
+.card | to make a card wrapper
+.card-header | to make a card header within `.card`
+.card-body | to make a card text within `.card`
+.card-title | to have a card title within `.card-body`
+.card-subtitle | to have a card subtitle within `.card-body`
+.card-text | to have a card text within `.card-body`
+.card-img-top | to have image before the `.card-body` within `.card`
+.card-footer | to make a card footer within `.card`
+
+```
+<!-- CARD WITH IMAGE -->
+<div class="card">
+    <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">
+    <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+        <a class="btn btn-success btn-block" href="#">Read More</a>
+    </div>
+</div>
+```
+
+```
+<!-- HEADER, FOOTER, CENTERED -->
+<div class="card text-center">
+    <div class="card-header">
+        My Card
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+        <a class="btn btn-dark" href="#">Read More</a>
+    </div>
+    <div class="card-footer text-muted">
+        2 Days Ago
+    </div>
+</div>
+```
+
+```        
+<!-- CARD WITH NAV -->
+<div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+        <a class="btn btn-primary" href="#">Read More</a>
+    </div>
+</div>
+```
