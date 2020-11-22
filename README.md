@@ -175,3 +175,31 @@ div.input-group-`<prepend \| append>` | to prepend/append something mostly its t
         <input class="form-control" type="text" placeholder="Username">
     </div>
 ```
+
+#### Alerts & Progress Bars
+
+Class Name | Description
+---------- | -----------
+.alert .alert-`<primary \| secondary \| success \| info \| warning \| danger \| light \| dark>` | to create an simple alert with specific color
+.alert-dismissible | see the example how to use it
+.progress | to create a progress bar
+.progress-bar | to create and fill the bar see the code below
+.progress-bar-stripped | to make stripped progress bar
+.progress-bar-animated | to make progress bar animated
+
+```
+<!-- DISMISSABLE ALERT -->
+    <div class="alert alert-success alert-dismissible">
+        <button class="close" type="button" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        <strong>Dismissable</strong> Blog post added
+    </div>
+```
+
+```
+<!-- PROGRESS BAR -->
+<div class="progress">
+    <div class="progress-bar bg-sucess" style="width:35%;">35%</div>
+</div>
+```
