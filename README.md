@@ -377,3 +377,10 @@ Class Name | Description
 .d-flex | to make it flex
 .flex-row-reverse | to reverse the order of the flex items
 .d-flex .flex-column | to arrange in column
+
+#### Auto Margins & Wrapping
+
+Class Name | Description
+---------- | -----------
+`<ml \| mr \| mb \| mt >`-auto | to push items right/left (it's opposite) /bottom/top.
+.flex-wrap | to wrap the flex items so that it doesn't go out of page
