@@ -327,3 +327,36 @@ Class Name | Description
 ---------- | -----------
 .jumbotron | to make the div more prominent
 .jumbotron-fluid | to extend the div to the entire width
+
+## Grid System and Flexbox
+
+#### Grid System
+
+Class Name | Description
+---------- | -----------
+.row | to create a row
+.col-`<sm \| md \| lg \| xl>`-`<1-12>` | to make columns in the `.row`
+.order-`<number>` | order the column depending upon how many columns are there
+.offset-`<sm \| md \| lg \| xl>`-`<1-12>` | offset the column on how much you want to push
+
+```
+<!-- RESPONSIVE GRID -->
+<div class="row">
+    <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
+    <ul>
+        <li>6 column on small screens</li>
+        <li>8 column on medium screen</li>
+        <li>9 column on large screen</li>
+        <li>10 column on xlarge screen</li>
+    </ul>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333">
+    <ul>
+        <li>6 column on small screens</li>
+        <li>4 column on medium screen</li>
+        <li>3 column on large screen</li>
+        <li>2 column on xlarge screen</li>
+    </ul>
+    </div>
+</div>
+```
