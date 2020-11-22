@@ -312,3 +312,11 @@ Class Name | Description
     </div>
 </div>
 ```
+
+#### Media Objects
+
+Class Name | Description
+---------- | -----------
+.media | to make a div with image and text aligned next to each other
+.media-body | to make a media body
+img.align-self-`<start \| center \| end>` | to align image top/middle/bottom
