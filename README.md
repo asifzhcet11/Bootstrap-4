@@ -360,3 +360,12 @@ Class Name | Description
     </div>
 </div>
 ```
+
+#### Grid Alignment
+
+Class Name | Description
+---------- | -----------
+div.row .align-items-`<start \| center \| end>` | align the text in top/middle/bottom
+div.col .align-self-`<start \| center \| end>` | aling only the specific column to top/middle/bottom
+.justify-content-`<start \| center \| end \| around \| between>` | to align column left/middle/right/to add spacing around the content/ to add the extra space in between
+.no-gutters | to have no space among columns when they are not in same row
