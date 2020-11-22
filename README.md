@@ -163,7 +163,7 @@ To group input together with symbol or some addons.
 Class Name | Description
 ---------- | -----------
 div.input-group | to have a div for the input group that goes together
-div.input-group-`<prepend /| append>` | to prepend/append something mostly its text or icon 
+div.input-group-`<prepend \| append>` | to prepend/append something mostly its text or icon 
 .input-group-text | to make the text look beautiful in an input group
 
 ```
